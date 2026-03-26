@@ -1,0 +1,67 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+  background-image: url("concesionario x dentro.jpg");
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.gris {
+    background-color: #444444;
+    padding: 15px;
+    margin-bottom: none;
+}
+
+.menu-marcas {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.menu-marcas li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.coches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
